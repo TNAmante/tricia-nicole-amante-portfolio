@@ -1592,4 +1592,21 @@ footer {
     .contact-buttons .btn {
         width: 100%;
     }
+
+    /* =========================================================
+   PROJECT CASE STUDY STATUS
+   ========================================================= */
+
+    .project-link.coming-soon {
+        color: #8b8b9a;
+        cursor: default;
+        pointer-events: none;
+        text-decoration: none;
+    }
+
+    .project-card:not(.featured-project) .project-arrow {
+        color: #8b8b9a;
+        font-size: 0.8rem;
+        letter-spacing: 0.15em;
+    }
 }
